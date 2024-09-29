@@ -27,7 +27,7 @@ st.markdown("""
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["1컷: 숲속 생활", "2컷: 다가오는 폭풍", "3컷: 뚜뚜가 다람쥐를 구출", "4컷: 뱀을 구출", "5컷: 폭풍 후 감사", "6컷: 뚜뚜의 칭찬"])
 
 with tab1:
-    st.image("/Users/dasepa/R coding/streamlit_test/myenv/share/jupyter/cut1-1.webp", width=500)
+    st.image("cut1-1.webp", width=500)
     st.markdown("""
     **스크립트**: 깊은 숲속에 나무늘보 뚜뚜가 살고 있었어요. 뚜뚜는 항상 느릿느릿 움직였어요.  
     친구들은 뚜뚜를 보며 "뚜뚜야, 너는 정말 느리구나!"라고 말했지만, 뚜뚜는 기분 나빠하지 않았어요.  
@@ -37,7 +37,7 @@ with tab1:
     """)
 
 with tab2:
-    st.image("/Users/dasepa/R coding/streamlit_test/myenv/share/jupyter/cut2-1.webp", width=500)
+    st.image("cut2-1.webp", width=500)
     st.markdown("""
     **스크립트**: 어느 날, 커다란 폭풍이 다가오고 있다는 소식이 들렸어요.  
     모든 동물들은 서둘러 안전한 곳을 찾기 시작했지만, 뚜뚜는 느려서 빨리 움직일 수 없었어요.
@@ -45,28 +45,28 @@ with tab2:
     """)
 
 with tab3:
-    st.image("/Users/dasepa/R coding/streamlit_test/myenv/share/jupyter/cut3-1.webp", width=500)
+    st.image("cut3-1.webp", width=500)
     st.markdown("""
     **스크립트**: 다람쥐가 나무 위에서 울고 있었어요. 뚜뚜가 다람쥐를 도와 조심스럽게 내려줍니다.
     **그림 설명**: 뚜뚜가 느리지만 신중하게 다람쥐를 구출하는 장면.
     """)
 
 with tab4:
-    st.image("/Users/dasepa/R coding/streamlit_test/myenv/share/jupyter/cut4-1.webp", width=500)
+    st.image("cut4-1.webp", width=500)
     st.markdown("""
     **스크립트**: 뱀이 꼬리가 돌에 걸려 움직이지 못하는 것을 본 뚜뚜가 신중하게 돌을 치워줍니다.
     **그림 설명**: 뚜뚜가 신중하게 뱀을 구출하는 장면.
     """)
 
 with tab5:
-    st.image("/Users/dasepa/R coding/streamlit_test/myenv/share/jupyter/cut5-1.webp", width=500)
+    st.image("cut5-1.webp", width=500)
     st.markdown("""
     **스크립트**: 폭풍이 지나가고, 동물들은 뚜뚜에게 감사의 인사를 전합니다.
     **그림 설명**: 동물들이 뚜뚜에게 감사하는 장면.
     """)
 
 with tab6:
-    st.image("/Users/dasepa/R coding/streamlit_test/myenv/share/jupyter/cut6-1.webp", width=500)
+    st.image("cut6-1.webp", width=500)
     st.markdown("""
     **스크립트**: 뚜뚜는 부끄럽게 웃으며 친구들에게 칭찬을 받습니다.
     **그림 설명**: 동물들이 뚜뚜를 칭찬하며 기뻐하는 장면.
